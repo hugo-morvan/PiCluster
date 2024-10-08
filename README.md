@@ -3,7 +3,7 @@ Raspberry Pi Cluster project
 
 ## Introduction
 
-This project aims to build a computer cluster of raspberry pi. Is this going to be more powerful than any modern regular computer ? No, but the goal is to learn many things during the building process, such as network, containerization, parallel programming, etc...
+This project aims to build a computer cluster of raspberry pi. Is this going to be more powerful than any modern regular computer ? No, but the goal is to learn many things during the building process, such as network, containerization, parallel programming, etc... The goal is also to make mistakes and learn from them, and to provide a somewhat comprehensive guide for someone who would like to attempt such a project in 2024.
 
 ### Table of content
 
@@ -53,9 +53,21 @@ reserving ip adresses, checking to see of the pis appear on your network
 
 #### Fab
 
+https://docs.fabfile.org/en/stable/
+
+#### Dotenv
+
+https://pypi.org/project/python-dotenv/
+
 ### Light Kubernetes (K3s)
 
+https://k3s.io/
+
+https://www.civo.com/blog/kubernetes-vs-docker-a-comprehensive-comparison#:~:text=Docker%20and%20Kubernetes%20are%20both,containers%20across%20clusters%20of%20hosts.
+
 #### Hadoop
+
+https://github.com/big-data-europe/docker-hadoop
 
 #### Home Server
 
