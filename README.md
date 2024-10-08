@@ -7,9 +7,11 @@ This project aims to build a computer cluster of raspberry pi. Is this going to 
 
 ### Table of content
 
- 1. [Introduction](##Introduction)
- 2. [Hardware](#Hardware)
- 3. [Software](#sub-heading-3)
+ 1. [Introduction](#Introduction)
+ 2. [Hardware](##Hardware)
+ 2.1 [Parts](###Parts)
+ 2.2 [Building the CLuster](###Building the cluster)
+ 4. [Software](#Software)
 
 
 ## Hardware
