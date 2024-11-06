@@ -68,19 +68,18 @@ I use Docker with Portainer UI to manage my cluster. It has a nice UI and is pre
 
 <img src="images/cluster_viz.png" alt="Cluster Vizualization" width="500"/>
 
-### Hadoop
+### Hadoop and Spark
 
-I plan on installing Hadoop in a container using this repo:
-
-https://github.com/big-data-europe/docker-hadoop
+I plan on installing Spark and Hadoop followig this [video](https://www.youtube.com/watch?v=FteThJ-YvXk) 
 
 ## Useful Resources
+
+https://www.youtube.com/watch?v=FteThJ-YvXk
 
 https://www.youtube.com/watch?v=H2rTecSO0gk
 
 https://www.youtube.com/watch?v=X9fSMGkjtug
 
 https://aricodes.net/posts/building-a-pi-cluster/
-
 
 https://www.civo.com/blog/kubernetes-vs-docker-a-comprehensive-comparison#:~:text=Docker%20and%20Kubernetes%20are%20both,containers%20across%20clusters%20of%20hosts.
