@@ -36,7 +36,7 @@ A suitable power source is essential to power all Raspberry Pis simultaneously. 
 
 It is a good idea to have proper ventilation for your cluster in order to keep your pies under decent temperature. I bought my cluster rack on [amazon](https://www.amazon.se/GeeekPi-Raspberry-Cluster-Stackerbart-4-lager/dp/B083FP9JRY?th=1)], but I modified it to be able to fit more pis behind the fan. I could have gone for the bigger model but it was more expensive and I wanted to keep my cluster somewhat compact. I used a soldering iron to burn extra holes in the plexiglass plate to be able to mount the pies side by side.
 
-<img src="images/rack.jpg" alt="Cluster rack" width="200"/> <img src="images/im2.png" alt="Modified plexiglass plate" width="200"/>
+<img src="images/rack.jpg" alt="Cluster rack" width="200"/> 
 
 ### Building the Cluster
 
