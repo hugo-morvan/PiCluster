@@ -43,7 +43,7 @@ It is a good idea to have proper ventilation for your cluster in order to keep y
 *Note: Make sure you do the OS installation before you put the cluster together as it is complicated to access the SD card slots once the cluster rack is assembled.*
 
 Here is a picture of the cluster once fully assembled.
-<img src="images/cluster.jpg" alt="Cluster rack" width="300"/>
+<img src="cluster.jpg" alt="Cluster rack" width="300"/>
 
 ## Software
 
