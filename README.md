@@ -9,7 +9,7 @@ This project aims to build a computer cluster of raspberry pi. Is this going to 
 
  1. [Hardware setup](#hardware)
  2. [Software setup](#software)
- 3. [Useful resources](#useful-resources)
+ 3. [Useful resources](#useful-resources-and-references)
 
 
 ## Hardware
@@ -71,16 +71,27 @@ I use Docker with Portainer UI to manage my cluster. It has a nice UI and is pre
 
 ### Hadoop and Spark
 
-I plan on installing Spark and Hadoop followig this [video](https://www.youtube.com/watch?v=FteThJ-YvXk) 
+I have installed Spark and Hadoop following this [video](https://www.youtube.com/watch?v=FteThJ-YvXk) and this [article](https://medium.com/@MarinAgli1/setting-up-a-spark-standalone-cluster-on-docker-in-layman-terms-8cbdc9fdd14b) but I have to make some adujstements to the scripts to make it work for me.
+I have uploaded the updated scripts under in the directory SparkScripts.
 
-## Useful Resources
+I you want to use those scripts, copy the folder to your swarm manager node. Then run `sudo make build` inside of that folder, and make sure that the build is succesful.
 
-https://www.youtube.com/watch?v=FteThJ-YvXk
+Once the build is finished, run `sudo make run` to start a spark environment with 3 containers (1 master, 1 history server, 1 worker) or `sudo make run-scaled` to start a spark environment with 5 containers (1 master, 1 history server, 3 workers). The number of worker can be adjusted by modifying the `run-scaled` command inside of `Makefile`.
 
-https://www.youtube.com/watch?v=H2rTecSO0gk
+The spark master GUI can be accesed via `<swarm_master_IP>:9090`, and the history server via `<swarm_master_IP>:18080`. 
 
-https://www.youtube.com/watch?v=X9fSMGkjtug
+#### Submitting a spark job
 
-https://aricodes.net/posts/building-a-pi-cluster/
+TBD
 
-https://www.civo.com/blog/kubernetes-vs-docker-a-comprehensive-comparison#:~:text=Docker%20and%20Kubernetes%20are%20both,containers%20across%20clusters%20of%20hosts.
+## Useful Resources and References
+
+"How to Run a Spark Cluster with Multiple Workers Locally Using Docker", The Data Guy : [Youtube](https://www.youtube.com/watch?v=FteThJ-YvXk)
+
+"Building a 4-node Raspberry Pi Cluster", Davy Wybiral: [Youtube](https://www.youtube.com/watch?v=H2rTecSO0gk)
+
+"i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)" NetworkChuck : [Youtube](https://www.youtube.com/watch?v=X9fSMGkjtug)
+
+"Building an 8 Node Raspberry Pi 4 Cluster (with Docker Swarm)", Ari : [blog post](https://aricodes.net/posts/building-a-pi-cluster/)
+
+"Kubernetes vs Docker: a comprehensive comparaison", Sayanta Banerjee : [article](https://www.civo.com/blog/kubernetes-vs-docker-a-comprehensive-comparison)
